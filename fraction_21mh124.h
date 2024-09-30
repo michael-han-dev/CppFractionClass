@@ -1,6 +1,6 @@
 /*header file for fraction class
     * fraction_21mh124.h
-    *  Created on: Sep 30, 2024
+    * Created on: Sep 30, 2024
     * Author: Michael Han
 */
 

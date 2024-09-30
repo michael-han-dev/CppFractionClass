@@ -1,3 +1,10 @@
+/* Fraction Class with complete implementation according to the header file
+    * fraction_21mh124.cpp
+    * Created on: Sep 30, 2024
+    * Author: Michael Han
+*/
+
+
 #include "fraction_21mh124.h"
 #include <iostream>
 #include <cmath>  // for std::abs
