@@ -7,7 +7,12 @@
 
 #include "fraction_21mh124.h"
 #include <iostream>
-#include <cmath>  // for std::abs
+#include <sstream>
+#include <string>
+#include <exception>
+#include <cmath>
+#include <vector>
+#include <fstream>
 #include <stdexcept>
 
 using namespace std;
@@ -43,7 +48,7 @@ Fraction Fraction::operator -() const {
 // Post-increment operator: Fraction++
 Fraction Fraction::operator ++(int) {
     Fraction temp = *this;
-    numer += denom;  // Add 1 (numer += denom) to the fraction
+    numer += denom;
     return temp;
 }
 

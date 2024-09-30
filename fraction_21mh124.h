@@ -5,9 +5,13 @@
 */
 
 #include <iostream>
+#include <sstream>
 #include <string>
-#include <fstream>
+#include <exception>
+#include <cmath>
 #include <vector>
+#include <fstream>
+#include <stdexcept>
 
 using namespace std;
 
